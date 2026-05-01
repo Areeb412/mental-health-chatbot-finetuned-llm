@@ -428,4 +428,3 @@ If you use this project, please cite:
 
 ---
 
-**Built with ❤️ for accessible mental health support**

@@ -46,8 +46,7 @@ wandb/
 Thumbs.db
 .DS_Store
 
-GETTING_STARTED.md
-mental_health_chatbot_GPU.md
-mental_health_chatbot_guide.md
-PROJECT_STATUS.md
-PROJECT_SUMMARY.md
+*.md
+
+# But keep README.md
+!README.md
