@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# Environment variables (NEVER commit these!)
+.env
+.env.local
+.env.*.local
+
+# Model weights (too large for git — use Git LFS or store on Hugging Face Hub)
+models/empathy-model/
+models/checkpoints/
+data/processed/
+
+# Training artifacts
+logs/
+*.log
+wandb/
+
+# IDE & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter
+*.ipynb
+.ipynb_checkpoints/
+
+# Cache
+.cache/
+.pytest_cache/
+.mypy_cache/
+
+# OS
+Thumbs.db
+.DS_Store
+
+GETTING_STARTED.md
+mental_health_chatbot_GPU.md
+mental_health_chatbot_guide.md
+PROJECT_STATUS.md
+PROJECT_SUMMARY.md
